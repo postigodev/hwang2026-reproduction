@@ -1,0 +1,200 @@
+{
+  "status": "INDEPENDENT OBSERVED MOTIF RECONSTRUCTION; ERGM NOT EXECUTED",
+  "source_commit": "054263ef3b75eb6550019e1168788c185f00b6b8",
+  "original_households": 79,
+  "analytical_nodes_after_exclusion": 78,
+  "status_group_sizes": {
+    "salaried": 16,
+    "land": 29,
+    "status": 9
+  },
+  "layers": {
+    "financial": {
+      "raw_rows": 254,
+      "excluded_self_loops": 42,
+      "unique_directed_edges": 176
+    },
+    "material": {
+      "raw_rows": 296,
+      "excluded_self_loops": 6,
+      "unique_directed_edges": 236
+    },
+    "labor": {
+      "raw_rows": 230,
+      "excluded_self_loops": 70,
+      "unique_directed_edges": 134
+    }
+  },
+  "within_layer_status_reciprocity": {
+    "financial": {
+      "salaried": 27,
+      "land": 31,
+      "status": 9
+    },
+    "material": {
+      "salaried": 42,
+      "land": 67,
+      "status": 21
+    },
+    "labor": {
+      "salaried": 11,
+      "land": 11,
+      "status": 6
+    }
+  },
+  "cross_layer_status_reciprocity": {
+    "financial->material": {
+      "salaried": 30,
+      "land": 32,
+      "status": 12
+    },
+    "financial->labor": {
+      "salaried": 20,
+      "land": 18,
+      "status": 9
+    },
+    "material->financial": {
+      "salaried": 27,
+      "land": 36,
+      "status": 9
+    },
+    "material->labor": {
+      "salaried": 25,
+      "land": 24,
+      "status": 12
+    },
+    "labor->financial": {
+      "salaried": 18,
+      "land": 20,
+      "status": 9
+    },
+    "labor->material": {
+      "salaried": 19,
+      "land": 27,
+      "status": 11
+    }
+  },
+  "descriptive_degree_comparisons": {
+    "financial": {
+      "salaried": {
+        "0": {
+          "n": 62,
+          "mean_out_degree": 2.0323,
+          "mean_in_degree": 2.1935
+        },
+        "1": {
+          "n": 16,
+          "mean_out_degree": 3.125,
+          "mean_in_degree": 2.5
+        }
+      },
+      "land": {
+        "0": {
+          "n": 49,
+          "mean_out_degree": 2.3061,
+          "mean_in_degree": 2.3469
+        },
+        "1": {
+          "n": 29,
+          "mean_out_degree": 2.1724,
+          "mean_in_degree": 2.1034
+        }
+      },
+      "status": {
+        "0": {
+          "n": 69,
+          "mean_out_degree": 2.1594,
+          "mean_in_degree": 2.3478
+        },
+        "1": {
+          "n": 9,
+          "mean_out_degree": 3.0,
+          "mean_in_degree": 1.5556
+        }
+      }
+    },
+    "material": {
+      "salaried": {
+        "0": {
+          "n": 62,
+          "mean_out_degree": 2.7903,
+          "mean_in_degree": 2.9839
+        },
+        "1": {
+          "n": 16,
+          "mean_out_degree": 3.9375,
+          "mean_in_degree": 3.1875
+        }
+      },
+      "land": {
+        "0": {
+          "n": 49,
+          "mean_out_degree": 3.0816,
+          "mean_in_degree": 3.1633
+        },
+        "1": {
+          "n": 29,
+          "mean_out_degree": 2.931,
+          "mean_in_degree": 2.7931
+        }
+      },
+      "status": {
+        "0": {
+          "n": 69,
+          "mean_out_degree": 2.942,
+          "mean_in_degree": 3.0725
+        },
+        "1": {
+          "n": 9,
+          "mean_out_degree": 3.6667,
+          "mean_in_degree": 2.6667
+        }
+      }
+    },
+    "labor": {
+      "salaried": {
+        "0": {
+          "n": 62,
+          "mean_out_degree": 1.5968,
+          "mean_in_degree": 1.6129
+        },
+        "1": {
+          "n": 16,
+          "mean_out_degree": 2.1875,
+          "mean_in_degree": 2.125
+        }
+      },
+      "land": {
+        "0": {
+          "n": 49,
+          "mean_out_degree": 1.7755,
+          "mean_in_degree": 1.7755
+        },
+        "1": {
+          "n": 29,
+          "mean_out_degree": 1.6207,
+          "mean_in_degree": 1.6207
+        }
+      },
+      "status": {
+        "0": {
+          "n": 69,
+          "mean_out_degree": 1.5217,
+          "mean_in_degree": 1.7391
+        },
+        "1": {
+          "n": 9,
+          "mean_out_degree": 3.2222,
+          "mean_in_degree": 1.5556
+        }
+      }
+    }
+  },
+  "matches_published_figure_3_and_figure_4_observed_values": true,
+  "limitations": [
+    "No ergm.multi model fitted and no 1,000-network Monte Carlo simulation performed.",
+    "Associations and counts do not identify causal effects or long-term persistence.",
+    "Networks are primarily reported potential sources of support, not complete transaction histories.",
+    "Binary status categories overlap, so group counts are not independent."
+  ]
+}

@@ -1,0 +1,9 @@
+metric,count
+distance_ordered_ID_mismatch,5874
+distance_unordered_ID_mismatch,5874
+distance_value_mismatch_all,5850
+distance_value_mismatch_observed_tie_incidences,504
+kinship_ordered_ID_mismatch,5874
+kinship_unordered_ID_mismatch,5874
+kinship_value_mismatch_all,908
+kinship_value_mismatch_observed_tie_incidences,394

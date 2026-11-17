@@ -1,0 +1,3 @@
+"variant","failed","iterations","final_step","retained_fit_chains","retained_fit_draws","max_abs_gradient","log_likelihood","aic","bic"
+"released",FALSE,4,1,1,2098,409.777187259276,-1625.94802472142,3297.89604944285,3477.27595979871
+"aligned",FALSE,4,1,1,2098,0.148250362409729,-1124.24071387974,2294.48142775948,2473.86133811534
